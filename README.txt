@@ -1,6 +1,8 @@
 BETCHE NATHAN STEPHANE
 Time taken to complete: 3hrs~4h
 
+Clone the project
+
 1) navigate to /api then run npm install from the terminal
 
 2) run node index.js
