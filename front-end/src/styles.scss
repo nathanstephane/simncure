@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+@import"./resetcss.scss";
+@import url('https://fonts.googleapis.com/css?family=Material+Icons+Outlined');
+
+@font-face {
+    font-family: 'Futura55';
+    src: url('../src/assets/fonts/FUTURA55REGULAR.TTF');
+    font-weight: normal;
+    font-style: normal;
+}
+html{font-family:'Futura55',sans-serif;}
+html, body{
+    height: 100%;
+}
+h1{font-size: 40px;}
+h2{font-size: 20px;}

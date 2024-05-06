@@ -1,0 +1,23 @@
+
+<div class="table_component" role="region" tabindex="0">
+    <table>
+        <caption> <p>Users Informations</p> </caption>
+        <thead>
+            <tr>
+                <th>First Name<br></th>
+                <th>Last Name<br></th>
+                <th>Email<br></th>
+                <th>Profile Picture<br></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let usr of users">
+                 <td>{{usr.name.first}} </td>
+                <td>{{ usr.name.last}}</td>
+                <td>{{ usr.email}}</td>
+                <td><img [src]="usr.picture.thumbnail" alt=""></td>
+            </tr>  
+        </tbody>
+    </table>
+  
+    </div>

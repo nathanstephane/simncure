@@ -1,0 +1,24 @@
+
+<div class="table_component" role="region" tabindex="0">
+    <table>
+        <caption> <p>Default User Informations</p> </caption>
+        <thead>
+            <tr>
+                <th>First Name<br></th>
+                <th>Last Name<br></th>
+                <th>Email<br></th>
+                <th>Profile Picture<br></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>{{user.name.first}} </td>
+                <td>{{ user.name.last}}</td>
+                <td>{{ user.email}}</td>
+                <td><img [src]="user.picture.thumbnail" alt=""></td>
+            </tr>  
+        </tbody>
+    </table>
+  
+    </div>
+

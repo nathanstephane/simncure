@@ -1,0 +1,17 @@
+
+api/node_modules/
+front-end/node_modules/
+front-end/dist
+front-end/tmp
+front-end/out-tsc
+front-end/bazel-out
+
+front-end/.angular/cache
+front-end/.sass-cache/
+front-end/connect.lock
+front-end/coverage
+
+front-end/libpeerconnection.log
+front-end/testem.log
+front-end/typings
+front-end/.vscode/
